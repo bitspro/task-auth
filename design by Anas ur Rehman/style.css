@@ -1,0 +1,390 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* display: flex;
+    justify-content: center; */
+  background: hsl(0, 100%, 74%);
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.backgroundimg {
+  background-image: url(./bg-intro-desktop.png);
+  background-repeat: no-repeat;
+}
+
+.claim,
+.trial {
+  color: white;
+  box-shadow: 0px 8px 10px 0px hsl(249, 10%, 26%);
+}
+
+.claim:hover {
+  transition: 0.8s;
+  background-color: #ff0000;
+  color: white;
+}
+
+.trial:hover {
+  transition: 0.8s;
+  background-color: #ff0;
+  color: black;
+}
+.p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.row {
+  width: 100%;
+}
+.red {
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
+
+.line,
+.red {
+  font-size: 10px;
+}
+
+.formerror{
+    color: red;
+}
+
+@media (min-width: 992px) {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    float: left;
+    text-align: justify;
+  }
+
+  .text {
+    position: relative;
+    top: 200px;
+    left: 140px;
+  }
+
+  .formdesign {
+    background: white;
+    width: 500px;
+    height: 470px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+  }
+
+  .fname,
+  .lname,
+  .email,
+  .password,
+  .claim {
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid hsl(249, 10%, 26%);
+    padding-left: 10px;
+    width: 400px;
+    height: 50px;
+    margin: 0.5%;
+    margin-left: 7.5%;
+    margin-top: 5%;
+  }
+
+  .claim {
+    font-size: 16px;
+    background: hsl(154, 59%, 51%);
+    border: none;
+    margin-left: 9%;
+  }
+
+  .trial {
+    background: hsl(248, 32%, 49%);
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+  }
+
+  .line {
+    margin-left: 15%;
+    color: hsl(246, 25%, 77%);
+  }
+
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    float: left;
+  }
+
+  .text {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 30px;
+  }
+
+  .formdesign {
+    background: white;
+    width: 335px;
+    height: 470px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+  }
+
+  .fname,
+  .lname,
+  .email,
+  .password,
+  .claim {
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid hsl(249, 10%, 26%);
+    padding-left: 10px;
+    width: 300px;
+    height: 50px;
+    margin: 0.5%;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+
+  .claim {
+    font-size: 16px;
+    background: hsl(154, 59%, 51%);
+    border: none;
+    margin-left: 5%;
+  }
+
+  .trial {
+    background: hsl(248, 32%, 49%);
+    width: 335px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+  }
+
+  .line {
+    text-align: center;
+    margin-left: 3%;
+    color: hsl(246, 25%, 77%);
+  }
+
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sd-1,
+  .col-sd-2,
+  .col-sd-3,
+  .col-sd-4,
+  .col-sd-5,
+  .col-sd-6,
+  .col-sd-7,
+  .col-sd-8,
+  .col-sd-9,
+  .col-sd-10,
+  .col-sd-11,
+  .col-sd-12 {
+    float: left;
+    text-align: center;
+  }
+  .text {
+    position: relative;
+    font-size: 10px;
+    font-weight: 400;
+    top: 30px;
+    left: 2px;
+  }
+
+  .formdesign {
+    background: white;
+    width: 270px;
+    height: 470px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 45px;
+  }
+
+  .fname,
+  .lname,
+  .email,
+  .password,
+  .claim {
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid hsl(249, 10%, 26%);
+    padding-left: 10px;
+    width: 220px;
+    height: 50px;
+    margin: 0.5%;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+
+  .claim {
+    font-size: 16px;
+    background: hsl(154, 59%, 51%);
+    border: none;
+    margin-left: 3%;
+  }
+
+  .trial {
+    background: hsl(248, 32%, 49%);
+    width: 270px;
+    height: 95px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    left: 2px;
+  }
+
+  .line {
+    margin-top: 7%;
+    margin-left: 3%;
+    color: hsl(246, 25%, 77%);
+  }
+  .col-sd-1 {
+    width: 8.33%;
+  }
+  .col-sd-2 {
+    width: 16.66%;
+  }
+  .col-sd-3 {
+    width: 25%;
+  }
+  .col-sd-4 {
+    width: 33%;
+  }
+  .col-sd-5 {
+    width: 41.66%;
+  }
+  .col-sd-6 {
+    width: 50%;
+  }
+  .col-sd-7 {
+    width: 58.33%;
+  }
+  .col-sd-8 {
+    width: 66.66%;
+  }
+  .col-sd-9 {
+    width: 74.99%;
+  }
+  .col-sd-10 {
+    width: 83.33%;
+  }
+  .col-sd-11 {
+    width: 91.66;
+  }
+  .col-sd-12 {
+    width: 100%;
+  }
+}
